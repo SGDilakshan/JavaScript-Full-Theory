@@ -85,3 +85,37 @@ This example helps you understand how to use the **JavaScript console** for debu
 - **`let`** and **`const`** are block-scoped; **`let`** allows reassignment, while **`const`** does not.
 
 ---------------------------------------------------------------------------------------
+
+# 04_Data Types in JavaScript
+
+This project demonstrates the basic **data types** in JavaScript, including both **primitive** and **reference** types.
+## Key Concepts:
+
+### 1. **Primitive Data Types** (Simple Types)
+- **String**: Represents text data.
+- **Number**: Can be a decimal or whole number.
+- **Boolean**: Represents true or false values.
+- **Null**: Represents no value or an empty value.
+- **Undefined**: A variable that is declared but not assigned any value.
+- **Symbol** (ES6): A unique and immutable value, often used as object property keys.
+
+### 2. **Reference Data Types** (Complex Types)
+- **Arrays**: A list-like structure used to store multiple values in a single variable.
+- **Objects**: A collection of key-value pairs where each key is a string, and the value can be any data type.
+- **Date**: Represents date and time.
+- **Functions**: A block of code designed to perform a task or calculate a value.
+
+## Summary:
+JavaScript uses **primitive data types** to store simple values such as numbers, strings, and booleans, and **reference data types** for more complex structures like arrays, objects, and functions. 
+
+- **Primitive data types**: These are immutable and include strings, numbers, booleans, null, undefined, and symbols.
+- **Reference data types**: These are mutable and include arrays, objects, and functions.
+
+Understanding the differences between primitive and reference data types is essential for effective JavaScript programming, as it helps to manage variables, handle memory, and understand the behavior of values in your program.
+
+## Key Takeaways:
+- Primitive data types are basic and immutable.
+- Reference data types are complex and mutable.
+- JavaScript also introduced **Symbols** in ES6 to create unique identifiers.
+
+These concepts form the foundation for working with variables and handling data in JavaScript.
