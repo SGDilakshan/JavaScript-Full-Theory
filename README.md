@@ -119,3 +119,38 @@ Understanding the differences between primitive and reference data types is esse
 - JavaScript also introduced **Symbols** in ES6 to create unique identifiers.
 
 These concepts form the foundation for working with variables and handling data in JavaScript.
+
+---------------------------------------------------------------------------------------
+
+# 05_Type Conversion in JavaScript  
+
+This project demonstrates how to convert values between different **data types** in JavaScript, including converting **numbers to strings**, **strings to numbers**, and handling **NaN (Not a Number)** cases.
+## Key Concepts:
+
+### 1. **Converting Numbers to Strings**
+- The `String()` function converts numbers into strings.
+- The `.toString()` method also converts numbers to strings.
+
+### 2. **Converting Other Data Types to Strings**
+- **Booleans**, **arrays**, **dates**, and other types can also be converted to strings.
+- Arrays are converted to comma-separated string values.
+  
+### 3. **Converting Strings to Numbers**
+- `Number()` converts a string representation of a number into a numeric value.
+- `parseInt()` converts a string to an integer, removing any decimal places.
+- `parseFloat()` converts a string to a floating-point number, keeping decimals.
+
+### 4. **Boolean and Array Conversion**
+- `true` converts to `1`, and `false` converts to `0` when using `Number()`.
+- Converting an array directly to a number results in `NaN` (Not a Number).
+
+### 5. **Handling NaN (Not a Number)**
+- When a non-numeric string is converted using `Number()`, it returns `NaN`.
+
+## Summary:
+- **`String()` and `.toString()`** are used to convert numbers and other data types into strings.
+- **`Number()`** is used to convert strings into numbers, but it returns `NaN` for non-numeric values.
+- **`parseInt()`** and **`parseFloat()`** are useful for extracting integer and decimal values from strings.
+- **Boolean values** convert to `1` (true) or `0` (false) when using `Number()`.
+
+Understanding type conversion is essential in JavaScript for handling data correctly and avoiding unexpected results in calculations or data processing.
