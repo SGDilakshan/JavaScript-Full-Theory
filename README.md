@@ -179,3 +179,30 @@ This project demonstrates **type coercion** in JavaScript, where JavaScript auto
 - **JavaScript automatically converts data types** in operations (implicit coercion).  
 - **Explicit conversion** using `Number()`, `String()`, etc., helps ensure expected results.  
 - Understanding coercion prevents unexpected bugs in calculations and string operations.  
+
+---------------------------------------------------------------------------------------
+
+# 07_Arithmetic Operations in JavaScript   
+
+This project demonstrates basic **arithmetic operations** in JavaScript. Arithmetic operators are used to perform mathematical calculations on numbers.
+## Key Concepts:  
+
+### 1. **Basic Arithmetic Operators**  
+- **Addition (`+`)** → Adds two numbers.  
+- **Subtraction (`-`)** → Subtracts one number from another.  
+- **Multiplication (`*`)** → Multiplies two numbers.  
+- **Division (`/`)** → Divides one number by another.  
+- **Modulus (`%`)** → Returns the remainder of a division.  
+- **Exponentiation (`**`)** → Raises a number to the power of another number.  
+
+### 2. **Increment and Decrement Operators**  
+- **Increment (`++`)** → Increases a variable's value by `1`.  
+- **Decrement (`--`)** → Decreases a variable's value by `1`.  
+
+## Summary:  
+- JavaScript provides basic operators for performing mathematical calculations.  
+- The **modulus operator (`%`)** is useful for checking divisibility.  
+- **Exponentiation (`**`)** simplifies power calculations.  
+- **Increment (`++`) and Decrement (`--`)** modify values directly.  
+
+Understanding these operators is essential for handling numerical calculations in JavaScript. 🚀  
