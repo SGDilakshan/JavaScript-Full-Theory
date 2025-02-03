@@ -154,3 +154,28 @@ This project demonstrates how to convert values between different **data types**
 - **Boolean values** convert to `1` (true) or `0` (false) when using `Number()`.
 
 Understanding type conversion is essential in JavaScript for handling data correctly and avoiding unexpected results in calculations or data processing.
+
+---------------------------------------------------------------------------------------
+
+# 06_Type Coercion in JavaScript  
+
+This project demonstrates **type coercion** in JavaScript, where JavaScript automatically converts data types during operations.  
+
+## Key Concepts:  
+
+### 1. **What is Type Coercion?**  
+- **Type coercion** happens when JavaScript **automatically converts** one data type into another when performing operations.  
+- This mainly occurs in **string and number operations**.  
+
+### 2. **Implicit Type Coercion (Automatic Conversion)**  
+- When adding a number to a string, JavaScript **converts the number into a string** and performs string concatenation.  
+- Example: `"25" + 10` results in `"2510"` (string).  
+
+### 3. **Explicit Type Conversion (Manual Conversion)**  
+- We can manually convert a string into a number using **`Number()`** before performing operations.  
+- Example: `Number("25") + 10` results in `35` (number).  
+
+## Summary:  
+- **JavaScript automatically converts data types** in operations (implicit coercion).  
+- **Explicit conversion** using `Number()`, `String()`, etc., helps ensure expected results.  
+- Understanding coercion prevents unexpected bugs in calculations and string operations.  
