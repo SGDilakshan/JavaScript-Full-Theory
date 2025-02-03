@@ -280,3 +280,122 @@ This project demonstrates the usage of **logical operators** in JavaScript: AND 
 These operators are essential for handling complex logical checks in conditional structures like `if` statements, loops, and more.
 
 ---------------------------------------------------------------------------------------
+
+# 12_Strict equality or Identity Operator in JavaScript
+
+JavaScript provides two types of equality operators:
+
+1. **Loose Equality (`==`)**:  
+   - Compares values **without checking data types**.
+   - Performs **type coercion**, converting values to a common type before comparison.
+   - Example: `10 == "10"` → `true`
+
+2. **Strict Equality (`===`)**:  
+   - Compares **both values and data types**.
+   - No type conversion occurs; both values must be of the same type to return `true`.
+   - Example: `10 === "10"` → `false`
+
+## Key Observations:
+
+- `0 == false` → `true`, but `0 === false` → `false`
+- `"" == false` → `true`, but `"" === false` → `false`
+- `null == undefined` → `true`, but `null === undefined` → `false`
+- Objects and primitive values behave differently:  
+  - `new String("Dilakshan") == "Dilakshan"` → `true`
+  - `new String("Dilakshan") === "Dilakshan"` → `false`
+
+## Conclusion:
+
+- Use **`==` (loose equality)** when type conversion is expected.
+- Use **`===` (strict equality)** for precise comparisons to avoid unexpected results.
+- Strict equality (`===`) is preferred for **better code reliability and clarity**.
+
+---------------------------------------------------------------------------------------
+
+# 13_Conditional or Ternary Operator in JavaScript
+
+This README summarizes examples of the ternary (conditional) operator in JavaScript.
+1. **Simple Ternary Operation:**
+   - Checks if a condition (age) is true and returns corresponding values.
+   
+2. **Handling Null or Undefined:**
+   - Uses the ternary operator to handle null/undefined values in a function.
+
+3. **Object Usage:**
+   - Demonstrates working with objects and accessing their properties.
+
+4. **Ternary with Object Property:**
+   - Uses the ternary operator to check if an object property exists.
+
+5. **Conditional Chains:**
+   - Implements multiple conditions in a chain using the ternary operator.
+
+Example code provided covers all these use cases.
+
+---------------------------------------------------------------------------------------
+
+# 14_Bitwase Operations in JavaScript
+
+This README provides examples of common bitwise operations in JavaScript.
+### Bitwise Operators:
+- **Bitwise AND (&)**: Performs a bitwise AND operation.
+- **Bitwise OR (|)**: Performs a bitwise OR operation.
+- **Bitwise NOT (~)**: Inverts all the bits.
+- **Bitwise XOR (^)**: Performs a bitwise XOR operation.
+- **Left Shift (<<)**: Shifts the bits of a number to the left.
+- **Right Shift (>>)**: Shifts the bits of a number to the right.
+- **Unsigned Right Shift (>>>)**: Shifts the bits of a number to the right, ensuring a positive result.
+
+---------------------------------------------------------------------------------------
+
+# 15_Nullish Coalescing Operator (??)
+
+The Nullish Coalescing Operator (`??`) in JavaScript is used to return the right-hand operand when the left-hand operand is `null` or `undefined`.
+### Key Points:
+- If the left-hand value is `null` or `undefined`, the right-hand value is returned.
+- If the left-hand value is not `null` or `undefined`, it is returned as-is.
+- It is particularly useful for providing default values when working with variables or object properties that may be `null` or `undefined`.
+- The operator does not consider other falsy values like `0`, `false`, or an empty string (`""`).
+
+### Common Use Cases:
+- Setting default values for variables.
+- Assigning fallback values to object properties that are `null` or `undefined`.
+
+The `??` operator is an effective tool for handling nullish values in JavaScript, offering a clean and readable way to work with default values.
+
+---------------------------------------------------------------------------------------
+
+# 16_Increment or Decrement in JavaScript
+
+In JavaScript, increment (`++`) and decrement (`--`) operators are used to increase or decrease a variable’s value by 1.
+### Key Operators:
+
+- **Postfix Increment (`a++`)**: Increments the variable after its value is used.
+- **Prefix Increment (`++a`)**: Increments the variable before its value is used.
+- **Postfix Decrement (`a--`)**: Decrements the variable after its value is used.
+- **Prefix Decrement (`--a`)**: Decrements the variable before its value is used.
+
+### Examples:
+
+1. **Postfix Increment**: The value of `a` is used first, and then `a` is incremented.
+   - Example: `a++` → `a` is used and then incremented.
+   
+2. **Prefix Increment**: The value of `a` is incremented first, and then the new value of `a` is used.
+   - Example: `++a` → `a` is incremented and then used.
+
+3. **Postfix Decrement**: The value of `a` is used first, and then `a` is decremented.
+   - Example: `a--` → `a` is used and then decremented.
+
+4. **Prefix Decrement**: The value of `a` is decremented first, and then the new value of `a` is used.
+   - Example: `--a` → `a` is decremented and then used.
+
+### Example Outputs:
+- **Postfix Increment**: If `x = 3`, after `y = x++`, `x` becomes 4 and `y` remains 3.
+- **Prefix Increment**: If `i = 3`, after `j = ++i`, both `i` and `j` become 4.
+- **Postfix Decrement**: If `m = 6`, after `n = m--`, `m` becomes 5 and `n` remains 6.
+- **Prefix Decrement**: If `p = 6`, after `q = --p`, both `p` and `q` become 5.
+
+These operators are used to perform quick increments or decrements while accessing the current value of the variable in expressions.
+
+---------------------------------------------------------------------------------------
+
