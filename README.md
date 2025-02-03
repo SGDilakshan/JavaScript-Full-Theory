@@ -268,3 +268,15 @@ The main relational operators in JavaScript are:
 These relational operators are useful for making decisions in your code and controlling the flow of your program based on conditions.
 
 ---------------------------------------------------------------------------------------
+
+## 11_Logical Operators in JavaScript
+
+This project demonstrates the usage of **logical operators** in JavaScript: AND (`&&`), OR (`||`), and NOT (`!`). Logical operators are used to combine conditional statements and evaluate multiple conditions in a concise way.
+
+- **AND (&&)**: Returns `true` only if both conditions are true.
+- **OR (||)**: Returns `true` if at least one condition is true.
+- **NOT (!)**: Inverts the boolean value of a condition.
+
+These operators are essential for handling complex logical checks in conditional structures like `if` statements, loops, and more.
+
+---------------------------------------------------------------------------------------
