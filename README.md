@@ -206,3 +206,65 @@ This project demonstrates basic **arithmetic operations** in JavaScript. Arithme
 - **Increment (`++`) and Decrement (`--`)** modify values directly.  
 
 Understanding these operators is essential for handling numerical calculations in JavaScript. 🚀  
+
+---------------------------------------------------------------------------------------
+
+# 08_Assignment Operators in JavaScript 
+
+## Summary:
+In JavaScript, **assignment operators** are used to assign values to variables while performing specific operations. The basic assignment operator (`=`) assigns a value to a variable. There are also compound assignment operators that combine an operation with assignment in a single step, such as:
+
+- `+=` (Addition assignment)
+- `-=` (Subtraction assignment)
+- `*=` (Multiplication assignment)
+- `/=` (Division assignment)
+- `%=` (Modulus assignment)
+- `**=` (Exponentiation assignment)
+
+These operators help make the code more concise and readable, as they allow combining operations with the assignment of the result. The use of assignment operators simplifies repetitive tasks and enhances efficiency when performing mathematical calculations or operations on variables.
+
+Assignment operators are widely used in loops, conditionals, and many other areas of JavaScript to perform calculations and assign values to variables simultaneously.
+
+---------------------------------------------------------------------------------------
+
+## 09_Comparison Operators in JavaScript
+
+Comparison operators in JavaScript are used to compare two values or expressions. These operators return a Boolean value (`true` or `false`) based on the comparison result.
+### Key Comparison Operators:
+
+1. **`==` (Equality Operator)**:
+   - Compares the **values** of two operands, ignoring their data types. If the values are equal, it returns `true`; otherwise, `false`.
+   - Example: `a == b`
+
+2. **`===` (Strict Equality Operator)**:
+   - Compares both the **value** and the **data type** of two operands. If both are equal, it returns `true`; otherwise, `false`.
+   - Example: `a === b`
+
+3. **`!=` (Inequality Operator)**:
+   - Compares the **values** of two operands to check if they are not equal. If they are not equal, it returns `true`; otherwise, `false`.
+   - Example: `a != b`
+
+4. **`!==` (Strict Inequality Operator)**:
+   - Compares both the **value** and the **data type** of two operands to check if they are not equal. If either the value or the data type differs, it returns `true`; otherwise, `false`.
+   - Example: `a !== b`
+
+### Key Points:
+- `==` compares **only values**, while `===` compares both **values and data types**.
+- `!=` checks for inequality in **values**, while `!==` checks for inequality in **both values and data types**.
+
+---------------------------------------------------------------------------------------
+
+## 10_Relational Operators in JavaScript
+
+Relational operators are used to compare two values and return a boolean value (`true` or `false`) based on the comparison. These operators help you perform basic comparisons between numbers, strings, or variables.
+
+The main relational operators in JavaScript are:
+
+1. **`>` (greater than)**: Returns `true` if the value on the left is greater than the value on the right.
+2. **`<` (less than)**: Returns `true` if the value on the left is less than the value on the right.
+3. **`>=` (greater than or equal to)**: Returns `true` if the value on the left is greater than or equal to the value on the right.
+4. **`<=` (less than or equal to)**: Returns `true` if the value on the left is less than or equal to the value on the right.
+
+These relational operators are useful for making decisions in your code and controlling the flow of your program based on conditions.
+
+---------------------------------------------------------------------------------------
