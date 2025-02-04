@@ -474,3 +474,233 @@ The `nested if` statement in JavaScript is used when one `if` statement is place
 The `nested if` statement allows for structured decision-making where one condition is dependent on another.
 
 ---------------------------------------------------------------------------------------
+
+# 21_Switch Statement in JavaScript
+
+The `switch` statement in JavaScript is used to execute different blocks of code based on a specific value. It is an alternative to using multiple `if-else` statements when checking for multiple conditions.
+
+## Key Points:
+- The `switch` statement evaluates an expression and matches it with a `case` label.
+- The `case` block executes when a match is found.
+- The `break` statement is used to exit the `switch` block after executing a `case`, preventing fall-through.
+- The `default` case executes if no matches are found.
+
+## Example Use Cases:
+- Handling user input selections (e.g., menu options).
+- Mapping numerical or string values to corresponding outputs.
+- Implementing simple control flow logic in applications.
+
+The `switch` statement provides a clear and efficient way to handle multiple conditions in JavaScript.
+
+---------------------------------------------------------------------------------------
+
+# 22_Combining Cases Statement in JavaScript
+
+## Overview
+In JavaScript, multiple `case` statements in a `switch` block can be combined when they share the same execution code. This helps reduce redundancy and improves readability.
+
+## Use Case
+The technique is useful when multiple values should trigger the same logic, such as checking if a letter is a vowel.
+
+## Example Explanation
+- The program checks if a given letter is a vowel (`a, e, i, o, u, A, E, I, O, U`).
+- If the letter matches any vowel case, it executes the same block of code.
+- If it does not match any, the `default` case executes, indicating it's not a vowel.
+
+## Advantages
+- Avoids repetition in code.
+- Enhances code clarity and maintainability.
+
+---------------------------------------------------------------------------------------
+
+# 23_While Loop In JavaScript
+
+The `while` loop in JavaScript executes a block of code repeatedly as long as the specified condition evaluates to `true`. It is useful when the number of iterations is not predetermined.
+
+## Key Points:
+- The condition is checked before executing the loop body.
+- If the condition is `false` initially, the loop will not execute at all.
+- The loop continues running until the condition becomes `false`.
+
+## Usage:
+- Used when the number of iterations is unknown beforehand.
+- Helps in scenarios like reading user input until a valid value is provided.
+- Commonly used for waiting for events or processing dynamic data.
+
+---------------------------------------------------------------------------------------
+
+# 24_Do While Loop in JavaScript
+
+The `do...while` loop in JavaScript is a type of loop that executes the code block at least once before checking the condition. It ensures that the block runs at least once, even if the condition is `false` initially.
+
+## Features:
+- Executes the block **at least once** before checking the condition.
+- Useful when the loop body **must run at least once** regardless of the condition.
+- Continues execution **as long as the condition remains true**.
+
+## Use Case:
+The `do...while` loop is ideal when you need to ensure that an operation executes **before** validating a condition, such as:
+- Prompting a user for input until they provide valid data.
+- Performing calculations where at least one iteration is necessary.
+
+---------------------------------------------------------------------------------------
+
+# 25_For Loop in JavaScript
+
+This README explains the usage of the `for` loop in JavaScript with a few examples.
+## Overview
+
+The `for` loop in JavaScript is used to execute a block of code a specified number of times. The basic syntax of the `for` loop is:
+
+- **Initialization**: Sets the starting point (runs once before the loop starts).
+- **Condition**: Tests whether the loop should continue (evaluated before each iteration).
+- **Increment/Decrement**: Updates the loop variable (runs after each iteration).
+
+---------------------------------------------------------------------------------------
+
+# 26_Nested For Loop in JavaScript
+
+This example demonstrates how to create and display a 2D array using nested `for` loops in JavaScript.
+## Key Points:
+- The outer loop creates 3 rows in the `nums` array.
+- The inner loop fills each row with values (0, 1, 2).
+- The resulting 2D array is logged using `console.log()` and displayed in a table format using `console.table()`.
+
+## Example Use Cases:
+- Populating 2D arrays or grids.
+- Displaying multi-dimensional data in a structured format.
+
+---------------------------------------------------------------------------------------
+
+# 27_For of Loop in Javascript
+
+This example demonstrates the usage of both traditional `for` loop and `for...of` loop to iterate over an array.
+## Key Points:
+- The traditional `for` loop iterates over the array using an index.
+- The `for...of` loop simplifies iteration by directly accessing each element in the array.
+
+## Example Use Cases:
+- Iterating over arrays or collections of data.
+- Accessing array elements without needing to manage an index manually.
+
+---------------------------------------------------------------------------------------
+
+# 28_For in Loop in JavaScript
+
+This example demonstrates how to use the `for...in` loop to iterate over the properties of an object.
+
+## Key Points:
+- The `for...in` loop is used to iterate over the enumerable properties of an object.
+- The loop provides access to both the property names and their corresponding values.
+
+## Example Use Cases:
+- Iterating over the properties of an object to access or manipulate data.
+- Displaying key-value pairs of an object.
+
+---------------------------------------------------------------------------------------
+
+# 29_Looping over objects by converting to an array
+
+This example demonstrates how to iterate over an object's properties by converting them into arrays using `Object.keys()` and `Object.values()`.
+
+## Key Points:
+- `Object.keys(object)`: Returns an array of the object's property names.
+- `Object.values(object)`: Returns an array of the object's property values.
+- Looping through the keys array allows access to both keys and values efficiently.
+
+## Example Use Cases:
+- Extracting and displaying object data in a structured format.
+- Iterating over object properties dynamically without knowing their names in advance.
+- Using key-value pairs for processing or manipulation in applications.
+
+---------------------------------------------------------------------------------------
+
+# 30_Break Statement in JavaScript
+
+The `break` statement in JavaScript is used to exit a loop immediately when a specific condition is met.
+
+## Key Points:
+- The `break` statement stops the execution of a loop before it naturally completes.
+- Commonly used in `for`, `while`, and `do-while` loops.
+- Helps improve efficiency by preventing unnecessary iterations.
+
+---------------------------------------------------------------------------------------
+
+# 31_Continue Statement in JavaScript
+
+The `continue` statement in JavaScript is used to skip the current iteration of a loop and move to the next one.
+
+## Key Points:
+- When `continue` is encountered, the loop skips the rest of the current iteration and proceeds to the next cycle.
+- Commonly used in `for`, `while`, and `do-while` loops.
+- Helps in selectively skipping certain values based on conditions.
+
+## Example Use Cases:
+- Skipping a specific number in a loop.
+- Filtering out unwanted values while iterating over a list.
+- Processing only certain elements in an array or dataset.
+
+---------------------------------------------------------------------------------------
+
+# 32_Label Block in JavaScript
+
+The **Label Block** in JavaScript is used to assign a label to a loop or block of code, allowing control flow statements like `break` or `continue` to target specific loops.
+
+## Key Points:
+- Labels provide a way to break or continue nested loops explicitly.
+- The `break labelName;` statement exits the labeled loop or block.
+- The `continue labelName;` statement skips the current iteration of the labeled loop.
+
+## Example Use Cases:
+- Exiting deeply nested loops efficiently.
+- Skipping iterations of an outer loop based on conditions.
+- Improving readability in complex loop structures.
+
+---------------------------------------------------------------------------------------
+
+# 33_Math Functions in JavaScript
+
+## Overview  
+JavaScript provides a set of built-in `Math` functions to perform various mathematical operations efficiently.  
+
+## Key Points  
+
+- **Mathematical Constants**  
+  - `Math.PI` – Represents the value of π.  
+  - `Math.E` – Represents Euler's number.  
+
+- **Rounding Functions**  
+  - `Math.round(value)` – Rounds to the nearest integer.  
+  - `Math.floor(value)` – Rounds down to the nearest integer.  
+  - `Math.ceil(value)` – Rounds up to the nearest integer.  
+
+- **Basic Operations**  
+  - `Math.sqrt(value)` – Computes the square root.  
+  - `Math.abs(value)` – Returns the absolute value.  
+  - `Math.pow(base, exponent)` – Computes power.  
+  - `Math.trunc(value)` – Removes the decimal part.  
+
+- **Min/Max Functions**  
+  - `Math.min(a, b, c, ...)` – Returns the smallest value.  
+  - `Math.max(a, b, c, ...)` – Returns the largest value.  
+
+- **Random Number Generation**  
+  - `Math.random()` – Generates a random number between `0` and `1`.  
+  - `Math.floor(Math.random() * range + min)` – Generates a random number within a specific range.  
+
+- **Sign Function**  
+  - `Math.sign(value)` – Determines if a number is positive, negative, or zero.  
+
+- **Trigonometric Functions**  
+  - `Math.sin(angle)` – Computes the sine of an angle.  
+  - `Math.cos(angle)` – Computes the cosine of an angle.  
+
+- **Logarithmic Functions**  
+  - `Math.log(value)` – Computes the natural logarithm.  
+  - `Math.log2(value)` – Computes the base-2 logarithm.  
+  - `Math.log10(value)` – Computes the base-10 logarithm.  
+
+## Conclusion  
+JavaScript's `Math` functions provide essential tools for mathematical computations, making it easier to handle calculations, random number generation, and trigonometric operations.  
+
+---------------------------------------------------------------------------------------
