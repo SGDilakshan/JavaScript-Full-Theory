@@ -456,3 +456,21 @@ The `else if` statement in JavaScript is used when multiple conditions need to b
 The `else if` statement provides a structured way to manage multiple conditions efficiently in JavaScript.
 
 ---------------------------------------------------------------------------------------
+
+# 20_Nested If Statement in JavaScript
+
+The `nested if` statement in JavaScript is used when one `if` statement is placed inside another `if` statement. This is useful for checking multiple conditions where one condition depends on another.
+
+## Key Points:
+- The outer `if` condition must be `true` for the inner `if` statement to be evaluated.
+- The inner `if` block checks additional conditions and executes specific code accordingly.
+- Used when decisions are dependent on multiple conditions.
+
+## Example Use Cases:
+- Assigning grades based on an average score, only if the student has passed all subjects.
+- Checking multiple dependent conditions in form validations.
+- Implementing complex decision-making logic in applications.
+
+The `nested if` statement allows for structured decision-making where one condition is dependent on another.
+
+---------------------------------------------------------------------------------------
