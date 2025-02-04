@@ -437,3 +437,22 @@ The `if-else` statement in JavaScript is used to execute different blocks of cod
 The `if-else` statement is a fundamental control structure for handling conditional logic in JavaScript.
 
 ---------------------------------------------------------------------------------------
+
+# 19_Else If Statement in JavaScript
+
+The `else if` statement in JavaScript is used when multiple conditions need to be checked sequentially. It allows executing different blocks of code based on different conditions.
+
+## Key Points:
+- The `if` block executes if the first condition is `true`.
+- If the first condition is `false`, the `else if` block checks the next condition.
+- If none of the conditions are `true`, the `else` block executes as a fallback.
+- Used when there are multiple possible outcomes based on different conditions.
+
+## Example Use Cases:
+- Checking whether a number is positive, negative, or zero.
+- Assigning grades based on a student's average score.
+- Handling multiple conditions in form validation or user input processing.
+
+The `else if` statement provides a structured way to manage multiple conditions efficiently in JavaScript.
+
+---------------------------------------------------------------------------------------
