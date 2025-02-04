@@ -410,3 +410,17 @@ if (condition) {
 }
 
 ---------------------------------------------------------------------------------------
+
+# 18_If Else Statement in JavaScript
+
+The `if-else` statement in JavaScript is used to execute different blocks of code based on whether a condition is `true` or `false`.
+
+## Syntax:
+```javascript
+if (condition) {
+    // Code executes if the condition is true
+} else {
+    // Code executes if the condition is false
+}
+
+---------------------------------------------------------------------------------------
