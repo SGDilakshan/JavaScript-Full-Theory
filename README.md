@@ -399,3 +399,14 @@ These operators are used to perform quick increments or decrements while accessi
 
 ---------------------------------------------------------------------------------------
 
+# 17_If Statement in JavaScript
+
+The `if` statement in JavaScript is used to execute a block of code only if a specified condition is `true`.
+
+## Syntax:
+```javascript
+if (condition) {
+    // Code to execute if the condition is true
+}
+
+---------------------------------------------------------------------------------------
