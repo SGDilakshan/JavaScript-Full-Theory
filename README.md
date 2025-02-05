@@ -758,3 +758,28 @@ This document provides a summary of various string functions available in JavaSc
 This summary provides a basic overview of essential JavaScript string functions for efficient string manipulation.
 
 ---------------------------------------------------------------------------------------
+
+# 35_Function in JavaScript
+
+This document provides a summary of JavaScript functions with a focus on functions that return values.
+
+## 1. Function with Return Statement
+- A function in JavaScript can return a value using the `return` statement.
+- The returned value can be used in expressions or assigned to variables.
+
+## 2. Function Parameters
+- Functions can take parameters to process input values.
+- Parameters allow functions to be reusable and dynamic.
+
+## 3. Calling a Function
+- A function is executed when it is called by using its name followed by parentheses `()` with arguments.
+
+## 4. Benefits of Using Functions
+- Improves code reusability and modularity.
+- Reduces code duplication.
+- Makes code more readable and maintainable.
+
+This summary provides an introduction to defining and using functions in JavaScript.
+
+---------------------------------------------------------------------------------------
+
