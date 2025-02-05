@@ -783,3 +783,26 @@ This summary provides an introduction to defining and using functions in JavaScr
 
 ---------------------------------------------------------------------------------------
 
+# 36_Function with arbitrary argument in JavaScript
+
+This document provides a summary of handling arbitrary arguments in JavaScript functions.
+
+## 1. Function with Arbitrary Arguments
+- JavaScript functions can accept an indefinite number of arguments using the `arguments` object.
+- The `arguments` object is an array-like structure containing all passed parameters.
+
+## 2. Iterating Over Arguments
+- A `for` loop can be used to iterate over the `arguments` object and process each value dynamically.
+
+## 3. Using the Spread Operator (`...`)
+- The spread operator (`...`) allows functions to accept multiple arguments as an array.
+- It provides a modern and preferred way to handle arbitrary parameters in JavaScript.
+
+## 4. Benefits of Using Arbitrary Arguments
+- Enables flexible function calls with varying numbers of arguments.
+- Reduces the need to define multiple function overloads.
+- Improves readability and maintainability of code.
+
+This summary introduces handling arbitrary arguments efficiently in JavaScript.
+
+
