@@ -805,4 +805,24 @@ This document provides a summary of handling arbitrary arguments in JavaScript f
 
 This summary introduces handling arbitrary arguments efficiently in JavaScript.
 
+---------------------------------------------------------------------------------------
+
+# 37_Function as Expression in JavaScript
+
+## 1. Function Expressions
+- A function can be assigned to a variable, known as a function expression.
+- Unlike function declarations, function expressions do not have names (anonymous functions).
+
+## 2. Usage
+- Function expressions can be stored in variables and passed as arguments.
+- They are useful in callbacks and event handling.
+
+## 3. Example
+- A function expression can perform operations like addition and return a result.
+
+This summary provides a brief introduction to function expressions in JavaScript.
+
+---------------------------------------------------------------------------------------
+
+
 
