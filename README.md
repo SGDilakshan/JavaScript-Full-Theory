@@ -863,6 +863,14 @@ This project demonstrates various JavaScript **arrow functions** and their appli
 
 ---------------------------------------------------------------------------------------
 
+# 39_Callback in JavaScript
+
+This README explains how callback functions are used in JavaScript, including examples of higher-order functions, `setTimeout`, `setInterval`, and `forEach`.
+
+## What is a Callback Function?
+A **callback function** is a function that is passed as an argument to another function and is executed at a later time. The callback function can be invoked once a certain operation or event is completed.
+
+---------------------------------------------------------------------------------------
 
 
 
