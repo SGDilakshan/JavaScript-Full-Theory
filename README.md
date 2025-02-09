@@ -894,3 +894,21 @@ In JavaScript, a variable declared inside a function using `var` has **function 
 Understanding **block scope** and **function scope** is crucial for managing variable lifetimes and avoiding scope-related bugs in JavaScript programs. The use of `let` and `const` for block-scoped variables provides more predictable behavior compared to `var`, which has function scope.
 
 ---------------------------------------------------------------------------------------
+
+# 41_Array in JavaScript
+
+## Introduction
+JavaScript arrays store multiple values and support various built-in methods for manipulation.
+
+## Key Methods
+- **Iteration:** `forEach`, `map`
+- **Modification:** `push`, `pop`, `shift`, `unshift`, `splice`
+- **Searching:** `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`
+- **Transformation:** `slice`, `concat`, `sort`, `reverse`, `join`, `fill`
+- **Filtering & Reducing:** `filter`, `reduce`, `every`, `some`
+- **Utility:** `from`, `isArray`, `flat`
+
+## Conclusion
+Mastering these methods enhances efficiency and readability in JavaScript programming.
+
+---------------------------------------------------------------------------------------
