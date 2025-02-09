@@ -912,3 +912,25 @@ JavaScript arrays store multiple values and support various built-in methods for
 Mastering these methods enhances efficiency and readability in JavaScript programming.
 
 ---------------------------------------------------------------------------------------
+
+# 42_Foreach in JavaScript
+
+## Overview
+This document demonstrates how to use the `forEach` method in JavaScript to iterate over arrays. It includes two main examples:
+1. Iterating over a simple array of numbers.
+2. Iterating over an array of objects representing users.
+
+## Key Concepts
+### 1. Iterating Through Numbers
+An array of numbers is created, and the `forEach` method is used to iterate over the array and print each number.
+
+### 2. Iterating with Index and Value
+The `forEach` method allows both the value and the index of each element to be accessed during the iteration. In this case, the index and value of each number in the array are printed.
+
+### 3. Working with User Data
+An array of user objects is created, with each object containing properties such as `full_name`, `age`, `city`, and `salary`. The `forEach` method is used to iterate through this array, and the `full_name` property of each user is printed.
+
+## Conclusion
+The `forEach` method is a great tool for iterating over arrays in JavaScript, whether you're working with simple data like numbers or more complex data structures like objects. It simplifies the process of accessing both the index and the value in the iteration.
+
+---------------------------------------------------------------------------------------
