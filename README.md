@@ -940,7 +940,6 @@ The `forEach` method is a great tool for iterating over arrays in JavaScript, wh
 This document provides an overview of various use cases for the `forEach` method in JavaScript.
 
 ## **Overview**
-
 The `forEach` method is used to iterate over elements in an array and perform operations on each element. Below are some practical applications:
 
 - **Printing Elements:** Iterating through an array to display each value.
