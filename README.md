@@ -955,3 +955,25 @@ The `forEach` method is used to iterate over elements in an array and perform op
 This method is useful for applying functions to array elements without creating new arrays or modifying the original array structure significantly.
 
 ---------------------------------------------------------------------------------------
+
+# 44_Map in JavaScript
+
+## 1. **Using `map()` with Numbers**  
+- The `map()` method is applied to an array of numbers.  
+- Each number is processed using `Math.sqrt()` to find its square root.  
+- The result is rounded to two decimal places using `.toFixed(2)`.  
+- The transformed values are displayed in a table format.  
+
+## 2. **Using `map()` with Objects**  
+- An array of user objects is created with details like name, age, city, and salary.  
+- The `map()` method is used to iterate through the objects.  
+- A new property, `status`, is added based on age:  
+  - If `age >= 18`, the user is **Eligible**.  
+  - Otherwise, the user is **Not Eligible**.  
+- The modified array is displayed in a table format.  
+
+### **Key Takeaways**  
+- The `map()` method transforms each element in an array without modifying the original array.  
+- It is useful for performing calculations and adding new properties to objects efficiently.
+
+---------------------------------------------------------------------------------------
