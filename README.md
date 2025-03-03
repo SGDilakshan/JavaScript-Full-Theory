@@ -1034,3 +1034,5 @@ The `filter()` method in JavaScript is used to create a new array containing ele
 The `reduce()` method simplifies array operations and enhances code readability.
 
 ---------------------------------------------------------------------------------------
+
+# 48_Slice in JavaScript
