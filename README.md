@@ -1036,3 +1036,7 @@ The `reduce()` method simplifies array operations and enhances code readability.
 ---------------------------------------------------------------------------------------
 
 # 48_Slice in JavaScript
+
+
+
+-------
