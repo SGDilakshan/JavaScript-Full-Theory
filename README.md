@@ -1045,3 +1045,21 @@ The `slice()` method extracts a portion of an array without modifying the origin
 array.slice(start, end)
 
 ---------------------------------------------------------------------------------------
+
+# 49_Splice in JavaScript
+
+## Overview
+The `splice()` method is used to modify an array by adding, removing, or replacing elements. It directly changes the original array and returns the removed elements.
+
+## Features
+- Can remove elements from a specific index.
+- Can replace elements with new values.
+- Can insert new elements without removing any.
+- Alters the original array.
+
+## Use Cases
+- Removing unwanted elements.
+- Updating elements in an array.
+- Inserting new elements at a specific position.
+
+---------------------------------------------------------------------------------------
