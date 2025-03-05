@@ -1037,6 +1037,11 @@ The `reduce()` method simplifies array operations and enhances code readability.
 
 # 48_Slice in JavaScript
 
+## Overview
+The `slice()` method extracts a portion of an array without modifying the original array. It returns a new array containing the selected elements.
 
+## Syntax
+```javascript
+array.slice(start, end)
 
--------
+---------------------------------------------------------------------------------------
