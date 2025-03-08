@@ -1054,3 +1054,37 @@ The `splice()` method is used to remove elements from an array and can also add 
 The `concat()` method in JavaScript is used to merge two or more arrays without modifying the original arrays. It returns a new array with the combined elements.
 
 ---------------------------------------------------------------------------------------
+
+# 51_Sort in JavaScript
+
+The `sort()` method in JavaScript is used to arrange elements in an array in a specific order. By default, it sorts elements as **strings** in ascending order. To sort numbers or objects, a compare function is required.
+
+## **1. Sorting Strings**
+By default, JavaScript will sort an array of strings alphabetically in lexicographical (dictionary) order.
+
+## **2. Sorting Numbers**
+### **Default Sort (Incorrect for Numbers)**
+If you use the `sort()` method directly on an array of numbers, JavaScript treats the elements as strings. This leads to incorrect sorting, as string sorting is based on Unicode order.
+
+### **Correct Sorting (Ascending Order)**
+To sort numbers correctly, use a compare function. This ensures the numbers are sorted in ascending order, from smallest to largest.
+
+### **Descending Order Sorting**
+You can also sort numbers in descending order by adjusting the compare function, which arranges the numbers from highest to lowest.
+
+## **3. Sorting an Array of Objects**
+You can sort an array of objects based on a specific property, such as `age`, `name`, or any other field.
+
+### **Sorting by Age (Ascending)**
+If you have a collection of objects with properties like `age`, you can sort them based on their `age` value in ascending order.
+
+### **Sorting by Name (Alphabetical Order)**
+For sorting objects alphabetically, compare their `name` properties. The `sort()` method will arrange them in lexicographical order.
+
+## **Key Takeaways**
+- **Default `sort()` treats elements as strings** → This can be problematic when sorting numbers.
+- **Use a compare function (`a - b`) for numerical sorting.**
+- **Sorting objects requires comparing specific properties.**
+- **Alphabetical sorting follows Unicode order.**
+
+---------------------------------------------------------------------------------------
