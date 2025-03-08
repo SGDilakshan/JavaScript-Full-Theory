@@ -1051,5 +1051,6 @@ The `splice()` method is used to remove elements from an array and can also add 
 
 # 50_Concat in JavaScript
 
+The `concat()` method in JavaScript is used to merge two or more arrays without modifying the original arrays. It returns a new array with the combined elements.
 
 ---------------------------------------------------------------------------------------
