@@ -1094,8 +1094,4 @@ For sorting objects alphabetically, compare their `name` properties. The `sort()
 ## Overview
 The `fill()` method fills all or part of an array with a static value. It **modifies the original array**.
 
-## Syntax
-```javascript
-array.fill(value, start, end)
-
 ---------------------------------------------------------------------------------------
