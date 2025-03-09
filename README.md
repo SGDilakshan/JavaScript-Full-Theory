@@ -1088,3 +1088,14 @@ For sorting objects alphabetically, compare their `name` properties. The `sort()
 - **Alphabetical sorting follows Unicode order.**
 
 ---------------------------------------------------------------------------------------
+
+# 52_Fill in JavaScript
+
+## Overview
+The `fill()` method fills all or part of an array with a static value. It **modifies the original array**.
+
+## Syntax
+```javascript
+array.fill(value, start, end)
+
+---------------------------------------------------------------------------------------
