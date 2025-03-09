@@ -1037,30 +1037,35 @@ The `reduce()` method simplifies array operations and enhances code readability.
 
 # 48_Slice in JavaScript
 
+## **Overview**
 The `slice()` method extracts a portion of an array without modifying the original array. It returns a new array containing the selected elements.
 
 ---------------------------------------------------------------------------------------
 
 # 49_Splice in JavaScript
 
+## **Overview**
 The `splice()` method is used to remove elements from an array and can also add new elements. It modifies the original array and returns an array of the removed elements.
 
 ---------------------------------------------------------------------------------------
 
 # 50_Concat in JavaScript
 
+## **Overview**
 The `concat()` method in JavaScript is used to merge two or more arrays without modifying the original arrays. It returns a new array with the combined elements.
 
 ---------------------------------------------------------------------------------------
 
 # 51_Sort in JavaScript
 
+## **Overview**
 The `sort()` method sorts array elements. By default, it arranges elements as **strings** in ascending order.
 
 ---------------------------------------------------------------------------------------
 
 # 52_Fill in JavaScript
 
+## **Overview**
 The `fill()` method fills all or part of an array with a static value. It **modifies the original array**.
 
 ---------------------------------------------------------------------------------------
