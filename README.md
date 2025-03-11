@@ -1069,3 +1069,29 @@ The `sort()` method sorts array elements. By default, it arranges elements as **
 The `fill()` method fills all or part of an array with a static value. It **modifies the original array**.
 
 ---------------------------------------------------------------------------------------
+
+# 53_Includes in JavaScript
+
+## Overview
+The `includes()` method checks whether an array contains a specific element and returns a **Boolean value (`true` or `false`)**. It helps in searching for elements efficiently without needing loops or conditions.
+
+## How It Works  
+- If the given element exists in the array, it returns **`true`**.  
+- If the element is not found, it returns **`false`**.  
+- The search is **case-sensitive**, meaning `"Pen"` and `"pen"` are considered different.  
+- You can also specify a **starting index** to begin the search from a specific position in the array.
+
+## Example Explanation  
+Consider an array of products: `["Pen", "Pencil", "Eraser", "Box", "Pen"]`.  
+1. Checking if `"Pen"` exists returns `true` because it's in the array.  
+2. Searching for `"Scale"` returns `false` since it doesn't exist.  
+3. Checking `"Pencil"` from index `2` returns `false`, as `"Pencil"` appears before index `2`.  
+4. Searching `"Pen"` from index `0` returns `true` as `"Pen"` is found at the beginning.
+
+## Key Points  
+- **Returns `true` or `false` based on element presence.**  
+- **Case-sensitive search.**  
+- **Allows specifying a starting index.**  
+- **Useful for checking existence without loops.**  
+
+---------------------------------------------------------------------------------------
